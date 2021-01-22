@@ -1,4 +1,7 @@
 import React from 'react'
+import handlewebpack from 'handlewebpack'
+console.log(handlewebpack,1111111111)
+console.log(require('handlewebpack'))
 class Clock extends React.Component{
     constructor(props){
         super(props)

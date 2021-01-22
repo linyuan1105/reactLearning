@@ -10,6 +10,7 @@ import { CalculatorTest } from "./test";
 import { CalculatorA } from "./plainComponent";
 import Calculator from './temp'
 import { TCF } from "./CFrevert";
+import { FrageMent } from "./fragments/index.js"
 import { WelcomeDialog, App } from "./FancyBorder.js";
 import {NameForm,
   FlavorForm} from './nameForm'
@@ -44,6 +45,7 @@ function formatDate(date) {
   function Comment(props) {
     return (
       <div className="Comment">
+        <FrageMent />
         <FilterableProductTable products={PRODUCTS} />
         <SignUpDialog />
         <App />
